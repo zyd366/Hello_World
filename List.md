@@ -19,7 +19,7 @@ print(message)          #输出My first bicycle was a Trek.
 bicycles[0] = 'fenghuang'
 print(bicycles[0])      #打印出修改后的列表第一项
 ```
-## 3 添加、删除元素
+## 3 添加元素
 在Python中，列表中元素的添加方式有两种，一种是添加到列表末尾使用方法append()；还一种是将元素插入到指定位置，使用方法insert()，此时需制定新元素的索引和值。具体情况如下：
 ```pyhon
 // FileName: listchange.python
@@ -29,7 +29,7 @@ bicycles.append('bike')     #在列表末尾添加元素bike
 bicycles.insert(1,'ducati') #在列表的第二项插入元素ducati
 print(bicycles)             #打印出修改后的列表['trek','ducati','cannondale','redline','bike']
 ```
-## 4 元素的删除
+## 4 删除元素
 列表内的元素删减可以使用del 如：del bicyles[0]或者使用方法pop()、remove（）。其不同点在于del语句将值从列表中删除后，你就无法访问删除的值，而pop()删除列表末尾的值该值后仍可使用；remove则是根据所删除的值进行删除。其具体表现如下：
 ```pyhon
 // FileName: listdel.python
