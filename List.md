@@ -9,7 +9,7 @@ print(bicycles[1])     #打印第二项cannondale
 print(bicycles[-1])    #打印最后一项specialized
 ```
 
-## 2列表使用和修改
+## 2 列表使用和修改
 列表中各个值的使用和修改都需要先索引，然后将其当作变量处理。并且列表与字符的拼接和变量相同，列表内的元素修改类似变量重新赋值。
 ```pyhon
 // FileName: listuse.python
@@ -19,7 +19,7 @@ print(message)          #输出My first bicycle was a Trek.
 bicycles[0] = 'fenghuang'
 print(bicycles[0])      #打印出修改后的列表第一项
 ```
-## 3、添加、删除元素
+## 3 添加、删除元素
 在Python中，列表中元素的添加方式有两种，一种是添加到列表末尾使用方法append()；还一种是将元素插入到指定位置，使用方法insert()，此时需制定新元素的索引和值。具体情况如下：
 ```pyhon
 // FileName: listchange.python
