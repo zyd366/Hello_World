@@ -4,7 +4,7 @@
 # In[4]:
 
 
-class Fibonacci(object):	#斐波那契数列迭代器
+class Fibonacci(object):	#斐波那契数列迭代器   ## 这是python2中定义类的习惯
     def __init__(self, all_num):
         self.all_num = all_num
         self.current_num = 0
